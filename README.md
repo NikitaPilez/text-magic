@@ -1,3 +1,5 @@
+**Для запуска проекта должен быть установлен docker и docker-compose**
+
 **Клонируем проект**
 
 `git clone https://github.com/NikitaPilez/text-magic`
