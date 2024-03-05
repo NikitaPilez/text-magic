@@ -1,0 +1,25 @@
+INSERT INTO public.question (id, text) VALUES (1, '1+1');
+INSERT INTO public.question (id, text) VALUES (2, '2+2');
+INSERT INTO public.question (id, text) VALUES (3, '3+3');
+INSERT INTO public.question (id, text) VALUES (4, '4+4');
+INSERT INTO public.question (id, text) VALUES (5, '5+5');
+
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (1, 1, '3', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (2, 1, '2', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (3, 1, '0', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (4, 2, '4', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (5, 2, '3+1', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (6, 2, '10', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (7, 3, '1+5', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (8, 3, '1', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (9, 3, '6', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (10, 3, '2+4', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (11, 4, '8', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (12, 4, '4', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (13, 4, '0', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (14, 4, '0+8', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (15, 5, '6', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (16, 5, '18', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (17, 5, '10', true);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (18, 5, '9', false);
+INSERT INTO public.answer (id, question_id, option, correct) VALUES (19, 5, '0', false);
